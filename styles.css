@@ -1,0 +1,60 @@
+html {
+    background: url("BioBackground.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+body {
+    background: transparent;
+}
+
+.container {
+    position: relative;
+    margin-top: 15vh;
+    border: 4em solid gray;
+    background-color: whitesmoke;
+}
+
+.row1 {
+    position: relative;
+    margin-top: -10em;
+}
+
+.portrait {
+    position: relative;
+    width: 20em;
+    height: 20em;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+h5 {
+    text-align: center;
+    margin-top: -0.3em;
+}
+
+.row3 {
+    margin-top: 2em;
+}
+
+.buttons {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
